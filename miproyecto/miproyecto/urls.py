@@ -22,5 +22,5 @@ from miapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inicio/', views.inicio, name="inicio"),
+    path('inicio/', views.inicio, name="inicio"), # Aqui se llama el archivo y la funcion que se creo
 ]
